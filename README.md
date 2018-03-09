@@ -21,7 +21,7 @@ docker build -t go-playground .
 Into your `go` project directory which you will write some codes, for example, `myapp`, and run the following command:
 
 ```
-docker run -it -v "$PWD":/usr/src/myapp -w /usr/src/myapp --name go-demo go-playground
+docker run -it -v "$PWD":/go/src/myapp -w /go/src/myapp --name go-demo go-playground
 ```
 
 By default, you will be attached to this container. Then you can run any command with `go` and `dep`.
