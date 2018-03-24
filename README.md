@@ -8,7 +8,7 @@ It provides a stand-alone go environment with [dep](https://github.com/golang/de
 
 ## Install
 
-```
+```bash
 git clone https://github.com/sqrthree/go-playground.git
 
 cd go-playground
